@@ -6,21 +6,83 @@
     "wdth" 100;
 }
 
-
-
-
-
 /* Nav styles */
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 200px;
+
 
 }
 
 .nav-title{
     font-weight: 800;
     font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
 
 }
+
 .text-primary{
-    color: orange;
+    color: rgb(255, 111, 0);
+}
+
+.dark-2{
+    color: #474747;
+}
+
+.btn-primary{
+    background-color: rgb(255, 111, 0);
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 25px;
+    border: none;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 20;
+}
+
+/* header */
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    /* margin: 38px 1441px 25px 23px, 319px 203px 0px 767px; */
+}
+
+/* banner-style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+
+}
+.banner-content{
+    max-width: 580px;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.banner-profile-pic{
+    width: 580px;
 }
