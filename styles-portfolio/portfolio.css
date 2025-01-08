@@ -202,3 +202,36 @@ main section{
     text-align: center;
     margin-top: 60px;
 }
+
+
+/* footer styles */
+footer{
+    padding: 130px 230px ;
+    display: flex;
+    gap: 117px;
+    margin-bottom: 130px;
+}
+
+.footer-column{
+    width: 50%;
+}
+.section-title{
+    text-align: left;
+}
+footer input[type="text"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 70%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+textarea{
+    width: 70%;
+    margin-bottom:24px ;
+    padding: 10px 20px;
+    display: block;
+    border: none;
+}
